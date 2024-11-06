@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Ejercicio</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        switch (key) {
+            case 1:
+                alert("Lunes");
+                break;
+
+            case 2:
+                alert("Martes");
+                break;
+
+            case 3:
+                alert("Miercoles");
+                break;
+
+            case 4:
+                alert("Jueves");
+                break;
+
+            case 5:
+                alert("Viernes");
+                break;
+
+            case 6:
+                alert("Sabado");
+                break;
+
+            case 7:
+                alert("Domingo");
+                break;
+
+            default:
+                break;
+        }
+
+        const comprobarDia = () => {
+            do {
+                var dia = Number(prompt("introduce un numero" + "numero del 1 al 7:", "1"));
+                if (dis < 1 || dia > 7 || isNaN(dia)) {
+                    alert(dia + "no es diavalido");
+                } else break;
+            } while (true);
+            alert(fdiaSemana(dia));
+        }
+    </script>
+</body>
+
+</html>

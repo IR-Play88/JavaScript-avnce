@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Numero mayor</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        var primerNumero = Number(prompt("escribe el primer numero"));
+
+	var segundoNumero = Number(prompt("escribe el segundo numero"));
+
+
+if (primerNumero > segundoNumero){
+	alert(primerNumero+" es mayor que " +segundoNumero);
+}  else if (primerNumero < segundoNumero){
+	alert(segundoNumero+" es mayor que " +primerNumero);
+} else{
+    alert(segundoNumero+" es igual que " +primerNumero);
+}
+    
+    </script>
+</body>
+
+</html>

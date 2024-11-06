@@ -1,0 +1,5 @@
+alert("Hola, soy Iván");
+confirm("¿Seguro te llamas Iván?"); valor de retorno que debo valuar
+prompt("escribe tu nombre:","nombre");
+
+=== tanto valor como tipo

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <script type="text/javascript" src="../js/Ejercicio5H.js"></script>
+    <link rel="stylesheet" href="../css/Ejercicio5H.css">
+</head>
+
+<body>
+    <div id="form">
+        <h1>Ejercicio 5</h1>
+        <fieldset>
+            <legend>FORMATO TEXTO</legend>
+            <label for="itext">Texto:</label>
+            <input type="text" id="itext" placeholder="Hola JavaScript">
+
+            <label for="icolor">Color Texto</label>
+            <select id="icolor">
+                <option value="red">Rojo</option>
+                <option value="yellow">Amarillo</option>
+                <option value="blue">Azul</option>
+            </select>
+
+            <label for="itamano">Tamaño:</label>
+            <input type="number" id="itamano">
+
+            <div class="styles">
+
+                <label for="inegrita">Negrita:</label>
+                Estilo: <input type="checkbox" id="inegrita">
+
+                <label for="icursiva">Cursiva:</label>
+                <input type="checkbox" id="iursiva">
+
+                <label for="isubrayado">Subrayado:</label>
+                <input type="checkbox" id="isubrayado">
+            </div>
+
+            <div class="font-select">
+                <label for="ifuente">Fuente:</label>
+                <img src="../img/Alien.png" alt="Fuente Arial">
+                <img src="../img/Cydonia.png" alt="Fuente Cydonia">
+                <img src="../img/Team.png" alt="Fuente team">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>FORMATO CONTENEDOR</legend>
+            Fondo : <input type="color" id="bgColor" value="#FFFFFF">
+
+            <label for="color">Borde:</label>
+            <input type="radio" name="borderColor" value="gris" id="igris">
+            <label for="igris">Gris:</label>
+
+            <input type="radio" name="borderColor" value="amarillo" id="iamarillo">
+            <label for="iamarillo">Amarillo</label>
+
+            <input type="radio" name="borderColor" value="rosa" id="irosa">
+            <label for="irosa">Rosa</label>
+        </fieldset>
+
+        <div id="texto" class="display-text">Hola JavaScript</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Ejercicio</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        function cuadrado(valor) {
+            return valor * valor;
+
+        }
+
+        function raiz2(valor) {
+            return Math.sqrt(valor);
+        }
+
+        function factorial(valor) {
+            var fact = 1;
+            for (var i = 1; i <= valor; i++) {
+                fact *= i;
+            }
+            return fact;
+        }
+
+        var valor = prompt("Introduce un numero:", "1");
+        alert("El cuadrado de " + valor +  " es " + cuadrado(valor));
+        alert("La raiz 2 de " + valor + " es " + raiz2(valor));
+        alert("El factorial de " + valor + " es " + factorial(valor));
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+#resCuadrado{
+    margin-left: 470px;
+    font-family: 'Courier New', Courier, monospace; /*Si lleva mono hace que todos los caracteres ocupen lo mismo*/
+    font-size: 1.5em;
+}
+
+#resDiamante{
+    font-family: 'Courier New', Courier, monospace; /*Si lleva mono hace que todos los caracteres ocupen lo mismo*/
+    font-size: 1.5em;
+    text-align: center;
+    margin-right: 370px;
+}

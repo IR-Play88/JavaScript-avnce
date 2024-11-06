@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var cantidad = prompt("Ingrese el numero para calcular el factorial");
+        var fact = 1;
+        //iterativo
+        //for (var n = cantidad; n >1; fact *= n--);
+
+        //recursivo
+        function factorial(n) {
+            if (n < 2) return 1;
+            else return (n * factorial(n - 1));
+        }
+        fact = factorial(cantidad);
+
+        alert("El factorial de " + cantidad + " es: " + fact);
+    </script>
+</body>
+
+</html>

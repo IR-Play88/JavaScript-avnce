@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Dias de la semana</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        var semana = prompt("Escribe el dia de la semana");
+
+        switch (semana.toLocaleLowerCase()) {
+            case 'lunes':
+            case 'martes':
+            case 'miercoles':
+            case 'jueves':
+            case 'viernes':
+                alert(semana +" es laborable");
+                break;
+            case 'sabado':
+            case 'domingo':
+                alert(semana +" no es laborable");
+                break;
+            default:
+            alert(semana +" es desconocido");
+        }
+    
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#form {
+    width: 400px;
+    margin: auto;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#texto {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid yellow;
+    font-size: 1.5em;
+    color: blue;
+    font-weight: bold;
+    font-family: Arial Black, sans-serif;
+    background-color: white;
+}
+
+.font-select button {
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.styles label {
+    margin-right: 10px;
+}

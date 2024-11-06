@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Tabla de Números</title>
+</head>
+<body>
+    <table border="1" cellspacing="0">
+        <tr>
+            <th valing="bottom" width="10%">i</th>
+            <th width="10%">i<sup>2</sup></th>
+            <th width="10%">i<sup>3</sup></th>
+        </tr>
+        <script type="text/javascript" src=""></script>
+    </table>
+    for (var i = 1; i < 10; i++) {
+       document.write("<tr aling= 'right'><td>"+i+"</td><td>" + (i*i) + "</td><td>" + (i*i*i)+ "</td></tr>");
+    }
+
+    <script type="text/javascript">
+        document.write("<table border='1'"); 
+       
+        document.write("<tr><th>Número</th><th>Cuadrado</th><th>Cubo</th></tr>");
+       
+        for (var i = 1; i < 10; i++) {
+            document.write("<tr>");
+            document.write("<td>" + i + "</td>");              
+            document.write("<td>" + (i * i) + "</td>");        
+            document.write("<td>" + (i * i * i) + "</td>");   
+            document.write("</tr>");
+        }
+
+        document.write("</table>");
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>	
+<title>Practica 2 de JavaScript
+</title>
+</head>
+<body>
+<script type="text/javascript">
+<!--
+var nombre = prompt("escribe tu nombre");
+var edad = Number(prompt("escribe tu edad"));
+
+if (edad >= 18) {
+	alert(nombre+" es mayor de edad");
+} else {
+	alert(nombre+" no es mayor de edad");
+}
+//-->
+</script>
+</body>
+</html>
+

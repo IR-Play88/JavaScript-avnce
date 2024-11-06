@@ -1,0 +1,34 @@
+@font-face {
+    font-family: alien;
+    src: url(../ttf/Alien-Encounters-Bold.ttf);
+}
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+#reloj {
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+#time {
+    font-size: 10em;
+    font-family: alien;
+    color: rgb(192, 3, 141);
+}
+
+#barra {
+    width: 100%;
+    height: 5em;
+    accent-color: rgb(105, 3, 71);
+}
+
+h1 {
+    color: yellow;
+    font-size: 5em;
+    font-family: alien;
+    border: 1px inset white;
+    border-width: 30px;
+}

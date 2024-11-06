@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <script type="text/javascript" src="../js/Ejercicio5H.js"></script>
+    <link rel="stylesheet" href="../css/Ejercicio5H.css">
+</head>
+<body>
+    <div id="form">
+        <h1>Ejercicio 5</h1>
+        <fieldset>
+            <legend>FORMATO TEXTO</legend>
+            <label for="itext">Texto:</label>
+            <input type="text" id="itext" placeholder="Hola JavaScript">
+            
+            <label for="icolor">Color Texto:</label>
+            <select id="icolor">
+                <option value="red">Rojo</option>
+                <option value="yellow">Amarillo</option>
+                <option value="blue">Azul</option>
+            </select>
+
+            <label for="itamano">Tamaño:</label>
+            <input type="number" id="itamano" value="4" min="1" max="7">
+
+            <div class="styles">
+                <label><input type="checkbox" id="inegrita"> Negrita</label>
+                <label><input type="checkbox" id="icursiva"> Cursiva</label>
+                <label><input type="checkbox" id="isubrayado"> Subrayado</label>
+            </div>
+
+            <div class="font-select">
+                <label>Fuente:</label>
+                <button class="font" data-font="Arial Black">Arial Black</button>
+                <button class="font" data-font="Bookman Old Style">Bookman Old Style</button>
+                <button class="font" data-font="Century Gothic">Century Gothic</button>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>FORMATO CONTENEDOR</legend>
+            <label>Fondo:</label>
+            <input type="color" id="bgColor" value="#FFFFFF">
+
+            <label>Borde:</label>
+            <label><input type="radio" name="borderColor" value="gray"> Gris</label>
+            <label><input type="radio" name="borderColor" value="yellow" checked> Amarillo</label>
+            <label><input type="radio" name="borderColor" value="pink"> Rosa</label>
+        </fieldset>
+
+        <div id="texto" class="display-text">Hola JavaScript</div>
+    </div>
+</body>
+</html>

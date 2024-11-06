@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Clacular</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        var primerNumero = Number(prompt("escribe el primer numero"));
+
+        var segundoNumero = Number(prompt("escribe el segundo numero"));
+
+        var calcula = (prompt("Como quieres que operen los números: +, -, *, /, R"))
+
+        var suma = primerNumero + segundoNumero;
+        var resta = primerNumero - segundoNumero;
+        var multiplicacion = primerNumero * segundoNumero;
+        var division = primerNumero / segundoNumero;
+        var raizCuadrada1 = Math.sqrt(primerNumero); 
+        var raizCuadrada2 = Math.sqrt(segundoNumero); 
+
+        if (calcula == "+") {
+            alert(" La suma es " +suma);
+        } else if (calcula == "-") {
+            alert(" La resta es " +resta);
+        } else if(calcula == "*"){
+            alert(" La multiplicacion es " +multiplicacion);
+        }else if(calcula == "/"){
+            alert(" La division es " +division);
+        } else{
+            alert(" La raiz cuadrada es " +raizCuadrada1);
+        }
+
+
+    </script>
+</body>
+
+</html>

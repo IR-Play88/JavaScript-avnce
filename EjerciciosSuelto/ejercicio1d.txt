@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>	
+<title>Practica 2 de JavaScript
+</title>
+</head>
+<body>
+<script type="text/javascript">
+<!--
+var semana = prompt("escribe el dia de la semana que desees");
+
+switch(semana){
+	case Lunes:
+	case Martes:
+	case Miercoles:
+	case Jueves:
+	case Viernes:
+		semana = "Laboral";
+		break;
+	case Sabado:
+	case Domingo:
+		semana = "Festivo";
+		break;
+	default:
+	semana = "Desconocido";
+}
+//-->
+</script>
+</body>
+</html>
+

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>	
+<title>Practica 2 de JavaScript
+</title>
+</head>
+<body>
+<script type="text/javascript">
+<!--
+var nombre = prompt("escribe tu nombre");
+var apellidos = prompt("escribe tus apellidos");
+
+var es = confirm("¿Es usted "+nombre+" "+apellidos+"?");
+if (es) {
+	window.document.write("Es "+nombre+" "+apellidos);
+}else{
+	document.write("No es "+nombre+" "+apellidos);
+}
+//-->
+</script>
+</body>
+</html>
+
